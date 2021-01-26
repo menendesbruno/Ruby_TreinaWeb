@@ -4,7 +4,7 @@ import Footer from '../../componentes/Footer/footer'
 export default function Recipe(props){
     return(
         <div>
-            <Header title={'TreinaCook - ${props.name}'}/>
+            <Header title={`TreinaCook - ${props.name}`} />
 
             <main>
             <article className="recipe-body" >
